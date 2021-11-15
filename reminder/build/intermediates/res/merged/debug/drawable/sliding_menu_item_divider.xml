@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <gradient
+        android:centerColor="#6d7580"
+        android:endColor="#6d7580"
+        android:startColor="#6d7580" />
+
+</shape><!-- From: file:/D:/Developing/Workspace/Android/Reminder/reminder/src/main/res/drawable/sliding_menu_item_divider.xml -->

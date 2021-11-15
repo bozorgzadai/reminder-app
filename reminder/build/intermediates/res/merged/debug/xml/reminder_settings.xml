@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="وظیفه ها" >
+        <CheckBoxPreference
+            android:key="SHOW_TASK_TIME_KEY"
+            android:summary="نشان دادن زمان در زیر هر وظیفه"
+            android:title="نمایش زمان" />
+        <CheckBoxPreference
+            android:key="SHOW_TASK_DATE_KEY"
+            android:summary="نشان دادن تاریخ زیر هر وظیفه"
+            android:title="نمایش تاریخ"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="اعلان ها" >
+        <CheckBoxPreference
+            android:key="NOTIFICATION_VIBRATE_KEY"
+            android:summaryOff="لرزش در هنگام اعلان فعال نیست"
+            android:summaryOn="لرزش در هنگام اعلان فعال است"
+            android:title="لرزش دستگاه" />
+        <CheckBoxPreference
+            android:key="NOTIFICATION_LIGHT_KEY"
+            android:summary="تعیین وضعیت چراغ اعلان"
+            android:title="چراغ اعلان" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="پیام کوتاه" >
+        <CheckBoxPreference
+            android:key="SENDING_SMS_KEY"
+            android:summaryOff="نرم افزار مجاز به ارسال پیام نیست"
+            android:summaryOn="نرم افزار مجاز به ارسال پیام هست"
+            android:title="ارسال پیام" />
+    </PreferenceCategory>
+
+</PreferenceScreen><!-- From: file:/D:/Developing/Workspace/Android/Reminder/reminder/src/main/res/xml/reminder_settings.xml -->

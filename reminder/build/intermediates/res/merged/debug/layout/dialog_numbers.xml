@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232323"
+    android:orientation="vertical"
+    android:paddingBottom="4dip"
+    android:paddingLeft="4dip"
+    android:paddingRight="4dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:gravity="center_horizontal" android:layout_marginTop="43dip">
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent" android:layout_weight="1" android:layout_height="0dip">
+
+                <LinearLayout
+                    android:id="@+id/edtLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/edtNumber0"
+                        android:layout_width="160dip"
+                        android:layout_height="33dip"
+                        android:layout_marginTop="2dip"
+                        android:ems="10"
+                        android:hint="0913***2921"
+                        android:textSize="13dip" android:maxLength="11" android:inputType="numberDecimal" android:maxLines="1" android:visibility="gone"/>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dip"
+                android:gravity="center" android:layout_marginBottom="4dip">
+
+                <ImageView
+                    android:id="@+id/imgDone"
+                    android:layout_width="46dip"
+                    android:layout_height="46dip"
+                    android:src="@drawable/done_icon" />
+
+                <LinearLayout
+                    android:layout_width="113dip"
+                    android:layout_height="match_parent" android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imgMassageText"
+                        android:layout_width="46dip"
+                        android:layout_height="46dip"
+                        android:src="@drawable/massage_text_icon" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgPlus"
+                    android:layout_width="46dip"
+                    android:layout_height="46dip"
+                    android:src="@drawable/plus_icon" />
+            </LinearLayout>
+
+d:layout_width="113dip"
+            android:layout_height="match_parent" >
+        </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/Developing/Workspace/Android/Reminder/reminder/src/main/res/layout/dialog_numbers.xml -->

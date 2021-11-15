@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="#882c3e50">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dip"
+        android:background="@drawable/top_menu_startup" >
+
+        <Button
+            android:id="@+id/btnNewTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="جدید" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical" >
+
+            <EditText
+                android:id="@+id/edtSearch"
+                android:layout_width="120dip"
+                android:layout_height="38dip"
+                android:gravity="right|center_vertical"
+                android:hint="Search" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgSlidingMenu"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:layout_marginLeft="4dip"
+            android:src="@drawable/sliding_menu_icon" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <!-- Preview: listitem=@layout/adapter_reminder -->
+    </ListView>
+
+</LinearLayout><!-- From: file:/D:/Developing/Workspace/Android/Reminder/reminder/src/main/res/layout/activity_startup.xml -->

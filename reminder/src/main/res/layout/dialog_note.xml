@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232323"
+    android:orientation="vertical"
+    android:paddingBottom="4dip"
+    android:paddingLeft="4dip"
+    android:paddingRight="4dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:gravity="center_horizontal" android:layout_marginTop="13dip" android:padding="13dip">
+
+        <EditText
+            android:id="@+id/edtNoteText"
+            android:layout_width="match_parent"
+            android:layout_height="213dip"
+            android:background="@drawable/note"
+            android:ems="10"
+            android:textColor="#2c3e50" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:gravity="center" android:layout_marginTop="13dip">
+
+            <ImageView
+                android:id="@+id/imgNoteCheckDone"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:src="@drawable/note_check_done_icon" />
+
+        </LinearLayout>
+
+d:layout_width="113dip"
+            android:layout_height="match_parent" >
+        </LinearLayout>
+
+</LinearLayout>

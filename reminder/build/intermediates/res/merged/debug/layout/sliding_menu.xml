@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#2a323d">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:text="نمایش"
+            android:textColor="#b8c6e0" android:layout_marginRight="12dip"/>
+
+        <ImageView
+            android:id="@+id/ImageView13"
+            android:layout_width="fill_parent"
+            android:layout_height="4dip"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="9dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="4dip"
+            android:src="@drawable/sliding_menu_title_divider" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:gravity="right|center_vertical" android:layout_marginRight="16dip">
+
+        <LinearLayout
+            android:id="@+id/layoutOnlyActive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dip" >
+
+            <CheckBox
+                android:id="@+id/chkOnlyActive"
+                android:layout_width="38dip"
+                android:layout_height="32dip" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent" android:layout_weight="1">
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="فقط وظایف فعال"
+                android:textSize="11dip" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:src="@drawable/active_sliding_menu_icon" android:layout_marginLeft="4dip"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="9dip"
+            android:layout_marginTop="4dip"
+            android:src="@drawable/sliding_menu_item_divider" />
+
+        <LinearLayout
+            android:id="@+id/layoutSortByPriority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dip" >
+
+            <CheckBox
+                android:id="@+id/chkSortByPriority"
+                android:layout_width="38dip"
+                android:layout_height="32dip" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:orientation="vertical" android:layout_weight="1">
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="مرتب بر اساس الویت"
+                android:textSize="11dip" />
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:src="@drawable/priority_sliding_menu_icon" android:layout_marginLeft="4dip"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:orientation="vertical" android:layout_marginTop="60dip">
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dip"
+            android:layout_marginTop="8dip"
+            android:text="موارد دیگر"
+            android:textColor="#b8c6e0" />
+
+        <ImageView
+            android:id="@+id/ImageView06"
+            android:layout_width="fill_parent"
+            android:layout_height="4dip"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="9dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="4dip"
+            android:src="@drawable/sliding_menu_title_divider" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dip"
+        android:gravity="right|center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layoutSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:paddingLeft="16dip" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تنظیمات"
+                android:textSize="11dip" />
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="4dip"
+                android:src="@drawable/setting_sliding_menu_icon" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="9dip"
+            android:layout_marginTop="4dip"
+            android:src="@drawable/sliding_menu_item_divider" />
+
+        <LinearLayout
+            android:id="@+id/layoutAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:paddingLeft="16dip" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="درباره ما"
+                android:textSize="11dip" />
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="4dip"
+                android:src="@drawable/about_us_sliding_menu_icon" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/Developing/Workspace/Android/Reminder/reminder/src/main/res/layout/sliding_menu.xml -->

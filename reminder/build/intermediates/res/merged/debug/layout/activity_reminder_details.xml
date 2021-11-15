@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="@drawable/top_menu_details">
+
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ساخت" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:layout_weight="1">
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="46dip"
+            android:layout_height="40dip"
+            android:src="@drawable/back_icon" android:layout_marginTop="4dip"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:gravity="right|center_vertical" >
+
+                <EditText
+                    android:id="@+id/edtTitle"
+                    android:layout_width="0dip"
+                    android:layout_height="32dip"
+                    android:layout_marginLeft="4dip"
+                    android:layout_marginTop="3dip"
+                    android:ems="10"
+                    android:textSize="11dip" android:layout_weight="1" android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="78dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="right|center_vertical"
+                    android:text="عنوان :" android:layout_marginTop="3dip" android:textColor="#34495e"/>
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="4dip"
+                    android:src="@drawable/title_icon" android:layout_marginTop="3dip"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:src="@drawable/list_divider_details" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical" >
+
+                <RatingBar
+                    android:id="@+id/ratePriority"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dip"
+                    android:layout_marginRight="8dip" />
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="78dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="right|center_vertical"
+                    android:text="الویت :" android:textColor="#34495e"/>
+
+                <ImageView
+                    android:id="@+id/ImageView04"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="4dip"
+                    android:src="@drawable/priority_icon" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:src="@drawable/list_divider_details" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical" >
+
+                <CheckBox
+                    android:id="@+id/chkActive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dip" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="78dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="right|center_vertical"
+                    android:text="فعال :" android:textColor="#34495e"/>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="4dip"
+                    android:src="@drawable/active_icon" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:src="@drawable/list_divider_details" />
+
+            <LinearLayout
+                android:id="@+id/layoutDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical" >
+
+                <TextView
+                    android:id="@+id/txtDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Current Date" android:textColor="#34495e"/>
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="78dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="right|center_vertical"
+                    android:text="تاریخ :" android:textColor="#34495e"/>
+
+                <ImageView
+                    android:id="@+id/ImageView06"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="4dip"
+                    android:src="@drawable/date_icon" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ImageView07"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:src="@drawable/list_divider_details" />
+
+            <LinearLayout
+                android:id="@+id/layoutTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical" >
+
+                <TextView
+                    android:id="@+id/txtTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Current Time" android:textColor="#34495e"/>
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="78dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="right|center_vertical"
+                    android:text="زمان :" android:textColor="#34495e"/>
+
+                <ImageView
+                    android:id="@+id/ImageView08"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="4dip"
+                    android:src="@drawable/time_icon" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ImageView09"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:src="@drawable/list_divider_details" />
+
+            <LinearLayout
+                android:id="@+id/layoutAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical" >
+
+                <TextView
+                    android:id="@+id/txtAlarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Current Alarm" android:textColor="#34495e"/>
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="78dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="right|center_vertical"
+                    android:text="هشدار :" android:textColor="#34495e"/>
+
+                <ImageView
+                    android:id="@+id/ImageView10"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="4dip"
+                    android:src="@drawable/alarm_icon" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ImageView11"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:src="@drawable/list_divider_details" />
+
+            <LinearLayout
+                android:id="@+id/layoutRepetition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical" >
+
+                <TextView
+                    android:id="@+id/txtRepetition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Current Repeat" android:textColor="#34495e"/>
+
+                <TextView
+                    android:id="@+id/TextView08"
+                    android:layout_width="78dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="right|center_vertical"
+                    android:text="تکرار :" android:textColor="#34495e"/>
+
+                <ImageView
+                    android:id="@+id/ImageView12"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="4dip"
+                    android:src="@drawable/repetition_icon" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ImageView13"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:src="@drawable/list_divider_details" />
+
+            <LinearLayout
+                android:id="@+id/layoutNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical" >
+
+                <TextView
+                    android:id="@+id/txtNote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Current Note" android:textColor="#34495e"/>
+
+                <TextView
+                    android:id="@+id/TextView11"
+                    android:layout_width="78dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="right|center_vertical"
+                    android:text="یادداشت :" android:textColor="#34495e"/>
+
+                <ImageView
+                    android:id="@+id/ImageView14"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="4dip"
+                    android:src="@drawable/note_icon" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ImageView15"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:src="@drawable/list_divider_details" />
+
+            <LinearLayout
+                android:id="@+id/layoutNumbers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical" >
+
+                <TextView
+                    android:id="@+id/txtNumbers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Numbers" android:textColor="#34495e"/>
+
+                <TextView
+                    android:id="@+id/TextView13"
+                    android:layout_width="78dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dip"
+                    android:gravity="right|center_vertical"
+                    android:text="ارسال پیام :" android:textColor="#34495e"/>
+
+                <ImageView
+                    android:id="@+id/ImageView16"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="4dip"
+                    android:src="@drawable/sms_icon" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/D:/Developing/Workspace/Android/Reminder/reminder/src/main/res/layout/activity_reminder_details.xml -->

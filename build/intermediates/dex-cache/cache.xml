@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android_Dev\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\Android_Dev\AndroidStudioProjects\Reminder\reminder\build\intermediates\pre-dexed\debug\support-v4-18.0.0-aa47e355cbbcb93beb026466f3c9d856f07bf344.jar" />
+    </item>
+    <item
+        jar="D:\Android_Dev\AndroidStudioProjects\Reminder\reminder\build\intermediates\exploded-aar\Reminder\slidingMenuLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="664caf5b1a50ff6331210536e72aa1c322406a30">
+        <dex dex="D:\Android_Dev\AndroidStudioProjects\Reminder\reminder\build\intermediates\pre-dexed\debug\classes-0ee9cad50e6b278c9ab24d520550773bd0ba29da.jar" />
+    </item>
+
+</items>
